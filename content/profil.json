@@ -1,0 +1,10 @@
+{
+    "workAs": "Développeur Fullstack Frontend",
+    "headSubtitle": "Game designer et développeur Unreal Engine",
+    "firstName" : "Raphael",
+    "lastName" : "Quinchon",
+    "birthDate" : "2002-09-02",
+    "country" : "France",
+    "canSpeak" : ["Anglais"],
+    "localisation" : "Caen, Normandie"
+}

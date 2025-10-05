@@ -1,0 +1,43 @@
+{
+    "published" : [
+        {
+            "id" : "portfolio",
+            "title" : "Mon portefolio professionnel",
+            "desc" : "Développé avec Nuxt, ce site me permets d'exposer mon travail",
+            "link" : "https://github.com/Asciien/portfolio",
+            "img" : "portfolio.png",
+            "public" : "true",
+            "updated" : "04-10-2025"
+        }
+    ],
+
+    "indev" : [
+        {
+            "id" : "hey_app",
+            "title" : "'Hey!' - Intéragir avec ses amis simplement",
+            "desc" : "Développée avec Flutter pour Android et IOS",
+            "link" : "",
+            "img" : "Placeholder.svg",
+            "public" : "true",
+            "updated" : "04-10-2025"
+        },
+        {
+            "id" : "unnova_web",
+            "title" : "UnnovaEsport.fr - Site communautaire et actualités",
+            "desc" : "Site officiel d’Unnova, développé avec React pour présenter les équipes, actualités et compétitions de la structure e-sport",
+            "link" : "",
+            "img" : "Placeholder.svg",
+            "public" : "true",
+            "updated" : "04-10-2025"
+        },
+        {
+            "id" : "politell",
+            "title" : "Politell, une expérience politique",
+            "desc" : "Application web déterminant, sans valeur officielle, le parti politique d’un utilisateur via un questionnaire interactif avec statistiques globales.",
+            "link" : "",
+            "img" : "Placeholder.svg",
+            "public" : "true",
+            "updated" : "04-10-2025"
+        }
+    ]
+}

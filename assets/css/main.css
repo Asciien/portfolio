@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #616161;
+  background: linear-gradient(180deg,rgba(15, 33, 49, 1) 0%, rgba(5, 38, 77, 1) 27%, rgba(10, 62, 83, 1) 73%, rgba(67, 109, 67, 1) 100%);
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+
+
+/* Text global format -------------------- */
+
+.textformat {
+  @apply font-sans text-white;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+
+
+
+/* Neon borders usable anywhere in the app -------------------- */
+
+.neonborder {
+  @apply border border-cyan-400 rounded-lg
+  shadow-[0_0_10px_2px_rgba(34,211,238,0.8)];
+}
+
+.neonborder-left {
+  position: relative;
+  padding-left: 1rem; /* espace pour la bordure */
+}
+
+.neonborder-left::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  background: cyan;
+  box-shadow: 0 0 10px 2px rgba(34,211,238,0.8);
+}

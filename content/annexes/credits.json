@@ -1,0 +1,26 @@
+{
+  "title": "Utilisation des assets et crédits",
+  "last-updated": "04-10-2025",
+  "sources": [
+    {
+      "use": "Home background wave",
+      "author": "Ultra Motion Graphics",
+      "link": "https://www.youtube.com/watch?v=CerPs8HX91M"
+    },
+    {
+      "use": "Some icons",
+      "author": "flaticon.com",
+      "link": "https://www.flaticon.com/"
+    },
+    {
+      "use": "Nuxt framework",
+      "author": "nuxt.com",
+      "link": "https://nuxt.com/"
+    },
+    {
+      "use": "Tailwind CSS",
+      "author": "Tailwind CSS",
+      "link": "https://tailwindcss.com/"
+    }
+  ]
+}
