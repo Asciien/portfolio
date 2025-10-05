@@ -6,17 +6,13 @@ import { join } from 'node:path'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxt/content',
-    [
-      '@nuxt/sitemap',
-      {
-        hostname: 'https://raphaelquinchon.com',
-        gzip: true
-      }
-    ]
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', [
+    '@nuxt/sitemap',
+    {
+      hostname: 'https://raphaelquinchon.com',
+      gzip: true
+    }
+  ], '@nuxtjs/sitemap'],
   
   app: {
     head: {
