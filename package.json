@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@iconify/vue": "^5.0.0",
-    "@nuxt/content": "^2.13.4",
+    "@nuxt/content": "^3.7.1",
+    "@nuxtjs/sitemap": "^7.4.7",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@supabase/supabase-js": "^2.58.0",
     "nuxt": "^4.0.1",
